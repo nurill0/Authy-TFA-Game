@@ -1,7 +1,6 @@
 
 //
 //  UIViewExtension.swift
-//  Tasbeh
 //
 //  Created by Nurillo Domlajonov on 04/01/23.
 //

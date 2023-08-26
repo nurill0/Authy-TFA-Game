@@ -7,25 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A76FC534A3E1DDB678B4A36D /* Pods_Authy_TFA_Game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B38C318DB15BACBDD57335 /* Pods_Authy_TFA_Game.framework */; };
+		FB5B00002A95C63200176A35 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5BFFFD2A95C63200176A35 /* Constants.swift */; };
+		FB5B00012A95C63200176A35 /* GlobalAccessables.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5BFFFE2A95C63200176A35 /* GlobalAccessables.swift */; };
 		FB5B583F2A938F8E00E32F7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B583E2A938F8E00E32F7F /* AppDelegate.swift */; };
 		FB5B58412A938F8E00E32F7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B58402A938F8E00E32F7F /* SceneDelegate.swift */; };
-		FB5B58432A938F8E00E32F7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B58422A938F8E00E32F7F /* ViewController.swift */; };
+		FB5B58432A938F8E00E32F7F /* InstructionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B58422A938F8E00E32F7F /* InstructionVC.swift */; };
 		FB5B58462A938F8E00E32F7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5B58442A938F8E00E32F7F /* Main.storyboard */; };
 		FB5B58492A938F8E00E32F7F /* Authy_TFA_Game.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB5B58472A938F8E00E32F7F /* Authy_TFA_Game.xcdatamodeld */; };
 		FB5B584B2A938F8F00E32F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5B584A2A938F8F00E32F7F /* Assets.xcassets */; };
 		FB5B584E2A938F8F00E32F7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5B584C2A938F8F00E32F7F /* LaunchScreen.storyboard */; };
+		FB5B585D2A93900C00E32F7F /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B58582A93900C00E32F7F /* UIViewExtension.swift */; };
+		FB5B585E2A93900C00E32F7F /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B58592A93900C00E32F7F /* UserDefaultsManager.swift */; };
+		FB5B585F2A93900C00E32F7F /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B585A2A93900C00E32F7F /* ArrayExtension.swift */; };
+		FB5B58602A93900C00E32F7F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B585B2A93900C00E32F7F /* Data.swift */; };
+		FB5B58612A93900C00E32F7F /* UIColorextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B585C2A93900C00E32F7F /* UIColorextension.swift */; };
+		FB5B58632A9390E900E32F7F /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B58622A9390E900E32F7F /* BaseVC.swift */; };
+		FB5B586E2A939F2300E32F7F /* Khand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB5B586C2A939F1E00E32F7F /* Khand-Medium.ttf */; };
+		FB5B586F2A939F2600E32F7F /* Khand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB5B586D2A939F1E00E32F7F /* Khand-SemiBold.ttf */; };
+		FB5B58712A93A68E00E32F7F /* NicknameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B58702A93A68E00E32F7F /* NicknameVC.swift */; };
+		FB5BFFFB2A95C62700176A35 /* AppLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5BFFFA2A95C62700176A35 /* AppLauncher.swift */; };
+		FB5BFFFF2A95C63200176A35 /* BaseNavCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5BFFFC2A95C63200176A35 /* BaseNavCtrl.swift */; };
+		FB65811A2A963EC3000125C8 /* QRScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6581192A963EC3000125C8 /* QRScannerVC.swift */; };
+		FBAB1F272A97DC7C0094042D /* ClearCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAB1F262A97DC7C0094042D /* ClearCache.swift */; };
+		FBAB1F2D2A97E1520094042D /* clear.json in Resources */ = {isa = PBXBuildFile; fileRef = FBAB1F2C2A97E1520094042D /* clear.json */; };
+		FBF1130C2A94886800F7BBAD /* AuthenticatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1130B2A94886700F7BBAD /* AuthenticatorVC.swift */; };
+		FBF1130E2A94A7C100F7BBAD /* RoomKeyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1130D2A94A7C100F7BBAD /* RoomKeyVC.swift */; };
+		FBF113102A94B1B400F7BBAD /* GameBoosterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1130F2A94B1B400F7BBAD /* GameBoosterVC.swift */; };
+		FBF113192A94E79600F7BBAD /* FlashButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF113182A94E79600F7BBAD /* FlashButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0811EE07A6BD725C06A2AE95 /* Pods-Authy TFA Game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authy TFA Game.release.xcconfig"; path = "Target Support Files/Pods-Authy TFA Game/Pods-Authy TFA Game.release.xcconfig"; sourceTree = "<group>"; };
+		0B6EBB8A285B314B05EF446F /* Pods-Authy TFA Game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authy TFA Game.debug.xcconfig"; path = "Target Support Files/Pods-Authy TFA Game/Pods-Authy TFA Game.debug.xcconfig"; sourceTree = "<group>"; };
+		69B38C318DB15BACBDD57335 /* Pods_Authy_TFA_Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Authy_TFA_Game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5B583B2A938F8E00E32F7F /* Authy TFA Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Authy TFA Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5B583E2A938F8E00E32F7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB5B58402A938F8E00E32F7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB5B58422A938F8E00E32F7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB5B58422A938F8E00E32F7F /* InstructionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionVC.swift; sourceTree = "<group>"; };
 		FB5B58452A938F8E00E32F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB5B58482A938F8E00E32F7F /* Authy_TFA_Game.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Authy_TFA_Game.xcdatamodel; sourceTree = "<group>"; };
 		FB5B584A2A938F8F00E32F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB5B584D2A938F8F00E32F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB5B584F2A938F8F00E32F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5B58582A93900C00E32F7F /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		FB5B58592A93900C00E32F7F /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		FB5B585A2A93900C00E32F7F /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		FB5B585B2A93900C00E32F7F /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		FB5B585C2A93900C00E32F7F /* UIColorextension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorextension.swift; sourceTree = "<group>"; };
+		FB5B58622A9390E900E32F7F /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		FB5B586C2A939F1E00E32F7F /* Khand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Khand-Medium.ttf"; sourceTree = "<group>"; };
+		FB5B586D2A939F1E00E32F7F /* Khand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Khand-SemiBold.ttf"; sourceTree = "<group>"; };
+		FB5B58702A93A68E00E32F7F /* NicknameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameVC.swift; sourceTree = "<group>"; };
+		FB5BFFFA2A95C62700176A35 /* AppLauncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLauncher.swift; sourceTree = "<group>"; };
+		FB5BFFFC2A95C63200176A35 /* BaseNavCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavCtrl.swift; sourceTree = "<group>"; };
+		FB5BFFFD2A95C63200176A35 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FB5BFFFE2A95C63200176A35 /* GlobalAccessables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalAccessables.swift; sourceTree = "<group>"; };
+		FB6581192A963EC3000125C8 /* QRScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerVC.swift; sourceTree = "<group>"; };
+		FBAB1F262A97DC7C0094042D /* ClearCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearCache.swift; sourceTree = "<group>"; };
+		FBAB1F2C2A97E1520094042D /* clear.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = clear.json; sourceTree = "<group>"; };
+		FBF1130B2A94886700F7BBAD /* AuthenticatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatorVC.swift; sourceTree = "<group>"; };
+		FBF1130D2A94A7C100F7BBAD /* RoomKeyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomKeyVC.swift; sourceTree = "<group>"; };
+		FBF1130F2A94B1B400F7BBAD /* GameBoosterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoosterVC.swift; sourceTree = "<group>"; };
+		FBF113182A94E79600F7BBAD /* FlashButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +77,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A76FC534A3E1DDB678B4A36D /* Pods_Authy_TFA_Game.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7485A5E208C5A0506B369BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69B38C318DB15BACBDD57335 /* Pods_Authy_TFA_Game.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D14705919931E412B4CCE8C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B6EBB8A285B314B05EF446F /* Pods-Authy TFA Game.debug.xcconfig */,
+				0811EE07A6BD725C06A2AE95 /* Pods-Authy TFA Game.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FB5B58322A938F8E00E32F7F = {
 			isa = PBXGroup;
 			children = (
 				FB5B583D2A938F8E00E32F7F /* Authy TFA Game */,
 				FB5B583C2A938F8E00E32F7F /* Products */,
+				D14705919931E412B4CCE8C8 /* Pods */,
+				A7485A5E208C5A0506B369BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +122,124 @@
 		FB5B583D2A938F8E00E32F7F /* Authy TFA Game */ = {
 			isa = PBXGroup;
 			children = (
-				FB5B583E2A938F8E00E32F7F /* AppDelegate.swift */,
-				FB5B58402A938F8E00E32F7F /* SceneDelegate.swift */,
-				FB5B58422A938F8E00E32F7F /* ViewController.swift */,
-				FB5B58442A938F8E00E32F7F /* Main.storyboard */,
+				FB5B586B2A939F0C00E32F7F /* fonts */,
+				FB5B58642A9390EF00E32F7F /* Pages */,
+				FB5B58572A938FF300E32F7F /* extension */,
+				FB5B58562A938FC600E32F7F /* Views */,
+				FB5B58552A938FBB00E32F7F /* App */,
 				FB5B584A2A938F8F00E32F7F /* Assets.xcassets */,
-				FB5B584C2A938F8F00E32F7F /* LaunchScreen.storyboard */,
 				FB5B584F2A938F8F00E32F7F /* Info.plist */,
 				FB5B58472A938F8E00E32F7F /* Authy_TFA_Game.xcdatamodeld */,
 			);
 			path = "Authy TFA Game";
+			sourceTree = "<group>";
+		};
+		FB5B58552A938FBB00E32F7F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FB5BFFFC2A95C63200176A35 /* BaseNavCtrl.swift */,
+				FB5BFFFD2A95C63200176A35 /* Constants.swift */,
+				FB5BFFFE2A95C63200176A35 /* GlobalAccessables.swift */,
+				FB5BFFFA2A95C62700176A35 /* AppLauncher.swift */,
+				FB5B58402A938F8E00E32F7F /* SceneDelegate.swift */,
+				FB5B583E2A938F8E00E32F7F /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FB5B58562A938FC600E32F7F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB5B584C2A938F8F00E32F7F /* LaunchScreen.storyboard */,
+				FB5B58442A938F8E00E32F7F /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FB5B58572A938FF300E32F7F /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				FBAB1F2C2A97E1520094042D /* clear.json */,
+				FBF113182A94E79600F7BBAD /* FlashButton.swift */,
+				FB5B585A2A93900C00E32F7F /* ArrayExtension.swift */,
+				FB5B585B2A93900C00E32F7F /* Data.swift */,
+				FB5B585C2A93900C00E32F7F /* UIColorextension.swift */,
+				FB5B58582A93900C00E32F7F /* UIViewExtension.swift */,
+				FB5B58592A93900C00E32F7F /* UserDefaultsManager.swift */,
+				FBAB1F262A97DC7C0094042D /* ClearCache.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		FB5B58642A9390EF00E32F7F /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				FB5B586A2A93914D00E32F7F /* game boost */,
+				FB5B58692A93914100E32F7F /* roomkey */,
+				FB5B58682A93912400E32F7F /* authtenticator */,
+				FB5B58672A93911400E32F7F /* nickname */,
+				FB5B58662A9390FD00E32F7F /* instruction */,
+				FB5B58652A9390F600E32F7F /* base */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		FB5B58652A9390F600E32F7F /* base */ = {
+			isa = PBXGroup;
+			children = (
+				FB5B58622A9390E900E32F7F /* BaseVC.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		FB5B58662A9390FD00E32F7F /* instruction */ = {
+			isa = PBXGroup;
+			children = (
+				FB5B58422A938F8E00E32F7F /* InstructionVC.swift */,
+			);
+			path = instruction;
+			sourceTree = "<group>";
+		};
+		FB5B58672A93911400E32F7F /* nickname */ = {
+			isa = PBXGroup;
+			children = (
+				FB5B58702A93A68E00E32F7F /* NicknameVC.swift */,
+			);
+			path = nickname;
+			sourceTree = "<group>";
+		};
+		FB5B58682A93912400E32F7F /* authtenticator */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1130B2A94886700F7BBAD /* AuthenticatorVC.swift */,
+				FB6581192A963EC3000125C8 /* QRScannerVC.swift */,
+			);
+			path = authtenticator;
+			sourceTree = "<group>";
+		};
+		FB5B58692A93914100E32F7F /* roomkey */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1130D2A94A7C100F7BBAD /* RoomKeyVC.swift */,
+			);
+			path = roomkey;
+			sourceTree = "<group>";
+		};
+		FB5B586A2A93914D00E32F7F /* game boost */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1130F2A94B1B400F7BBAD /* GameBoosterVC.swift */,
+			);
+			path = "game boost";
+			sourceTree = "<group>";
+		};
+		FB5B586B2A939F0C00E32F7F /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FB5B586C2A939F1E00E32F7F /* Khand-Medium.ttf */,
+				FB5B586D2A939F1E00E32F7F /* Khand-SemiBold.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB5B58522A938F8F00E32F7F /* Build configuration list for PBXNativeTarget "Authy TFA Game" */;
 			buildPhases = (
+				2445B144006F5A3685B055E9 /* [CP] Check Pods Manifest.lock */,
 				FB5B58372A938F8E00E32F7F /* Sources */,
 				FB5B58382A938F8E00E32F7F /* Frameworks */,
 				FB5B58392A938F8E00E32F7F /* Resources */,
+				0D18A602FC08112C7EF8EE50 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,23 +302,85 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5B586E2A939F2300E32F7F /* Khand-Medium.ttf in Resources */,
+				FBAB1F2D2A97E1520094042D /* clear.json in Resources */,
 				FB5B584E2A938F8F00E32F7F /* LaunchScreen.storyboard in Resources */,
 				FB5B584B2A938F8F00E32F7F /* Assets.xcassets in Resources */,
 				FB5B58462A938F8E00E32F7F /* Main.storyboard in Resources */,
+				FB5B586F2A939F2600E32F7F /* Khand-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D18A602FC08112C7EF8EE50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Authy TFA Game/Pods-Authy TFA Game-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Authy TFA Game/Pods-Authy TFA Game-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Authy TFA Game/Pods-Authy TFA Game-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2445B144006F5A3685B055E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Authy TFA Game-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FB5B58372A938F8E00E32F7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB5B58432A938F8E00E32F7F /* ViewController.swift in Sources */,
+				FB5B00012A95C63200176A35 /* GlobalAccessables.swift in Sources */,
+				FBF1130C2A94886800F7BBAD /* AuthenticatorVC.swift in Sources */,
+				FB65811A2A963EC3000125C8 /* QRScannerVC.swift in Sources */,
+				FB5B00002A95C63200176A35 /* Constants.swift in Sources */,
+				FB5B585D2A93900C00E32F7F /* UIViewExtension.swift in Sources */,
+				FBF113192A94E79600F7BBAD /* FlashButton.swift in Sources */,
+				FB5BFFFB2A95C62700176A35 /* AppLauncher.swift in Sources */,
+				FB5B58432A938F8E00E32F7F /* InstructionVC.swift in Sources */,
+				FBF1130E2A94A7C100F7BBAD /* RoomKeyVC.swift in Sources */,
+				FB5B585E2A93900C00E32F7F /* UserDefaultsManager.swift in Sources */,
+				FB5B58612A93900C00E32F7F /* UIColorextension.swift in Sources */,
 				FB5B58492A938F8E00E32F7F /* Authy_TFA_Game.xcdatamodeld in Sources */,
+				FB5B58712A93A68E00E32F7F /* NicknameVC.swift in Sources */,
+				FB5B585F2A93900C00E32F7F /* ArrayExtension.swift in Sources */,
+				FB5BFFFF2A95C63200176A35 /* BaseNavCtrl.swift in Sources */,
 				FB5B583F2A938F8E00E32F7F /* AppDelegate.swift in Sources */,
 				FB5B58412A938F8E00E32F7F /* SceneDelegate.swift in Sources */,
+				FB5B58602A93900C00E32F7F /* Data.swift in Sources */,
+				FBAB1F272A97DC7C0094042D /* ClearCache.swift in Sources */,
+				FB5B58632A9390E900E32F7F /* BaseVC.swift in Sources */,
+				FBF113102A94B1B400F7BBAD /* GameBoosterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +522,7 @@
 		};
 		FB5B58532A938F8F00E32F7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B6EBB8A285B314B05EF446F /* Pods-Authy TFA Game.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,6 +531,7 @@
 				DEVELOPMENT_TEAM = RDUJ47QN57;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Authy TFA Game/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow use your camera for our app";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -314,6 +552,7 @@
 		};
 		FB5B58542A938F8F00E32F7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0811EE07A6BD725C06A2AE95 /* Pods-Authy TFA Game.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,6 +561,7 @@
 				DEVELOPMENT_TEAM = RDUJ47QN57;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Authy TFA Game/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow use your camera for our app";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

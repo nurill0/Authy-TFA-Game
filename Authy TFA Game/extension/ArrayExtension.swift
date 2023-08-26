@@ -1,6 +1,5 @@
 //
 //  ArrayExtension.swift
-//  Ilm Nuri
 //
 //  Created by Nurillo Domlajonov on 20/01/23.
 //
@@ -15,4 +14,11 @@ extension Array where Element: Equatable {
         remove(at: index)
     }
     
+}
+
+
+func randomAlphanumericString(_ length: Int) -> String {
+   let letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+   let randomString = (0..<length).map{ _ in String(letters.randomElement()!) }.reduce("", +)
+   return randomString
 }

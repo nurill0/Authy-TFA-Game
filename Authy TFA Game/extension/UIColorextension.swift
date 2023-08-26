@@ -1,5 +1,4 @@
 //  UIColorExtension.swift
-//  Tasbeh
 //
 //  Created by Nurillo Domlajonov on 04/01/23.
 
@@ -9,25 +8,18 @@ import UIKit
 // new business app design releted colors
 extension UIColor {
     // general
-    static func baseColor()->UIColor{
-        return UIColor(hexString: "#0C2E60")
+    
+    static func baseBgColor()->UIColor{
+        return UIColor(hexString: "5199CE")
     }
     
-    static func borderColor()->UIColor{
-        return UIColor(hexString: "527ECF")
+    
+    static func buttonBgColor()->UIColor{
+        return UIColor(hexString: "9AC14E")
     }
     
-    static func itemsBaseColor()->UIColor{
-        return UIColor(hexString: "#042556")
-    }
     
-    static func typeCoachBGColor()->UIColor{
-        return UIColor(hexString: "FFA41F")
-    }
-    
-    static func coachNameColor()->UIColor{
-        return UIColor(hexString: "65FFA8")
-    }
+
     
 }
 

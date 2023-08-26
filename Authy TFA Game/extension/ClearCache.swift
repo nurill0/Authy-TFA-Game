@@ -10,32 +10,36 @@ import UIKit
 import Lottie
 
 
-class CoachsItemView: UIView {
+class ClearCache: UIView {
     var animationView: AnimationView?
 
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        self.translatesAutoresizingMaskIntoConstraints = false
+        initAnimations()
     }
     
     
-    convenience init(boosted: Bool) {
+    convenience init() {
         self.init(frame: .zero)
-        self.initAnimations(boosted: boosted)
-        
+        self.translatesAutoresizingMaskIntoConstraints = false
     }
     
-    private func initAnimations(boosted: Bool){
+    private func initAnimations(){
         animationView = .init(name: "clear")
-        animationView?.frame = self.bounds
-        animationView?.animationSpeed = 0.8
         self.addSubview(animationView!)
-        if boosted {
-            animationView?.play()
-        }else{
-            animationView?.stop()
-        }
-        
+//        animationView?.frame = self.bounds
+        animationView!.centerX(self.centerXAnchor)
+        animationView!.centerY(self.centerYAnchor)
+        animationView!.top(self.topAnchor)
+        animationView!.bottom(self.bottomAnchor)
+        animationView!.right(self.rightAnchor)
+        animationView!.left(self.rightAnchor)
+        animationView?.translatesAutoresizingMaskIntoConstraints = false
+        animationView?.animationSpeed = 1.1
+//        animationView?.loopMode =     
+        animationView?.contentMode = .scaleAspectFill
     }
     
     
