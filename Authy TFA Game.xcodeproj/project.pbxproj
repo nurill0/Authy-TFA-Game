@@ -20,7 +20,6 @@
 		FB5B585D2A93900C00E32F7F /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B58582A93900C00E32F7F /* UIViewExtension.swift */; };
 		FB5B585E2A93900C00E32F7F /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B58592A93900C00E32F7F /* UserDefaultsManager.swift */; };
 		FB5B585F2A93900C00E32F7F /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B585A2A93900C00E32F7F /* ArrayExtension.swift */; };
-		FB5B58602A93900C00E32F7F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B585B2A93900C00E32F7F /* Data.swift */; };
 		FB5B58612A93900C00E32F7F /* UIColorextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B585C2A93900C00E32F7F /* UIColorextension.swift */; };
 		FB5B58632A9390E900E32F7F /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B58622A9390E900E32F7F /* BaseVC.swift */; };
 		FB5B586E2A939F2300E32F7F /* Khand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB5B586C2A939F1E00E32F7F /* Khand-Medium.ttf */; };
@@ -34,7 +33,6 @@
 		FBF1130C2A94886800F7BBAD /* AuthenticatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1130B2A94886700F7BBAD /* AuthenticatorVC.swift */; };
 		FBF1130E2A94A7C100F7BBAD /* RoomKeyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1130D2A94A7C100F7BBAD /* RoomKeyVC.swift */; };
 		FBF113102A94B1B400F7BBAD /* GameBoosterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1130F2A94B1B400F7BBAD /* GameBoosterVC.swift */; };
-		FBF113192A94E79600F7BBAD /* FlashButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF113182A94E79600F7BBAD /* FlashButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,7 +51,6 @@
 		FB5B58582A93900C00E32F7F /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		FB5B58592A93900C00E32F7F /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		FB5B585A2A93900C00E32F7F /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
-		FB5B585B2A93900C00E32F7F /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		FB5B585C2A93900C00E32F7F /* UIColorextension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorextension.swift; sourceTree = "<group>"; };
 		FB5B58622A9390E900E32F7F /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		FB5B586C2A939F1E00E32F7F /* Khand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Khand-Medium.ttf"; sourceTree = "<group>"; };
@@ -69,7 +66,6 @@
 		FBF1130B2A94886700F7BBAD /* AuthenticatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatorVC.swift; sourceTree = "<group>"; };
 		FBF1130D2A94A7C100F7BBAD /* RoomKeyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomKeyVC.swift; sourceTree = "<group>"; };
 		FBF1130F2A94B1B400F7BBAD /* GameBoosterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoosterVC.swift; sourceTree = "<group>"; };
-		FBF113182A94E79600F7BBAD /* FlashButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,9 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				FBAB1F2C2A97E1520094042D /* clear.json */,
-				FBF113182A94E79600F7BBAD /* FlashButton.swift */,
 				FB5B585A2A93900C00E32F7F /* ArrayExtension.swift */,
-				FB5B585B2A93900C00E32F7F /* Data.swift */,
 				FB5B585C2A93900C00E32F7F /* UIColorextension.swift */,
 				FB5B58582A93900C00E32F7F /* UIViewExtension.swift */,
 				FB5B58592A93900C00E32F7F /* UserDefaultsManager.swift */,
@@ -365,7 +359,6 @@
 				FB65811A2A963EC3000125C8 /* QRScannerVC.swift in Sources */,
 				FB5B00002A95C63200176A35 /* Constants.swift in Sources */,
 				FB5B585D2A93900C00E32F7F /* UIViewExtension.swift in Sources */,
-				FBF113192A94E79600F7BBAD /* FlashButton.swift in Sources */,
 				FB5BFFFB2A95C62700176A35 /* AppLauncher.swift in Sources */,
 				FB5B58432A938F8E00E32F7F /* InstructionVC.swift in Sources */,
 				FBF1130E2A94A7C100F7BBAD /* RoomKeyVC.swift in Sources */,
@@ -377,7 +370,6 @@
 				FB5BFFFF2A95C63200176A35 /* BaseNavCtrl.swift in Sources */,
 				FB5B583F2A938F8E00E32F7F /* AppDelegate.swift in Sources */,
 				FB5B58412A938F8E00E32F7F /* SceneDelegate.swift in Sources */,
-				FB5B58602A93900C00E32F7F /* Data.swift in Sources */,
 				FBAB1F272A97DC7C0094042D /* ClearCache.swift in Sources */,
 				FB5B58632A9390E900E32F7F /* BaseVC.swift in Sources */,
 				FBF113102A94B1B400F7BBAD /* GameBoosterVC.swift in Sources */,
